@@ -1,0 +1,205 @@
+body {
+    background: #f8f8f8;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 960px;
+    height: 500px;
+    background: rgba(169, 255, 252, 0.27);
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    color: green;
+    font-size: 14px;
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-style: italic;
+    }
+
+ul {
+    list-style-type: none ;
+}
+
+h2  {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.cat {
+    background: none;
+}
+
+.short_review {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.short_review:first-letter {
+    font-size: 30px;
+    color: #ff282d;
+}
+
+.full_review
+{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.full_review:first-letter {
+    font-size: 30px;
+    color: #ff282d;
+}
+
+.spisok_2 {
+    color: lightseagreen;
+    list-style-image: url("images/phone.png");
+    margin-left: 30px;
+}
+
+.vvod,
+.email {
+    width: 200px;
+    height: 20px;
+    font-style: italic;
+    font-size: 12px;
+    color: blue;
+}
+
+.ramka {
+    width: 400px;
+    height: 250px;
+    border: #cacd58 solid 5px;
+}
+
+.ramka:hover {
+    border: #f8f8f8  solid 5px;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.header{
+    height: 100px;
+    /*background: #7fcd65;*/
+    background-image: url(https://img11.postila.io/resize?w=564&src=%2Fdata%2F48%2F43%2F3f%2Fd3%2F48433fd372c8a211698f0ead2c8fd5a32b8055c2f434e57b82eb409081a85417.jpg);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+}
+.header img {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: block;
+    float: left;
+    margin: 0 5em 2em 0;
+}
+
+.header ul{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.email:focus {
+    background: #fffa08;
+    color: #ff0c52;
+}
+
+
+.test_table tr:nth-of-type(1) {
+    height: 100px;
+    color: #ff0c52;
+}
+
+input,
+textarea {
+    text-transform: capitalize;
+}
+
+.footer{
+    height: 50px;
+    display: flex;
+    background-color: rgba(121, 255, 85, 0.26);
+}
+
+.footer p {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.test_table {
+    width: 300px; 
+    border-collapse: collapse; 
+    border: #000000 solid 2px;
+}
+
+.opisanie_s_obtekaniem {
+    height: auto;
+}
+
+.image {
+    float: left;
+    height: auto;
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.buy {
+    position: absolute;
+    bottom: 100;
+    right: 20px;
+}
+
+.buy:hover {
+    background: red;
+}
+
+.container2 {
+    overflow: auto;
+}
+
+.cont_catalog {
+    background: rgba(25, 255, 15, 0.51);
+    height: 700px;
+}
+
+.tovar {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 50px;
+    background: blanchedalmond;
+}
+
+.tovar:nth-child(3n) {
+    margin-right: 0;
+}
+
+TD, TH {
+    padding: 3px;
+    border: 1px solid black;
+}
